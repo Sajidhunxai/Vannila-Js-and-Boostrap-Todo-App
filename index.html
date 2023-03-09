@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Todo App with Bootstrap & Vannila Javascript</title>
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+            crossorigin="anonymous"
+            />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mx-auto mt-5">
+                    <div class="card">
+                        <div class="card-header text-center">
+                            <h1>Todo App with Bootstrap & Vannila Javascript</h1>
+                        </div>
+                        <div class="card-body">
+                            <div class="input-group mb-3">
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="Add a new todo item"
+                                    id="todoInput"
+                                    />
+                                <div class="input-group-append">
+                                    <button class="btn btn-primary"
+                                        type="button" id="addBtn">
+                                        Add
+                                    </button>
+                                </div>
+                            </div>
+                            <ul class="list-group" id="todoList"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script
+            src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+       
+    </body>
+</html>

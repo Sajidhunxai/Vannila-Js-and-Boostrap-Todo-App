@@ -1,0 +1,32 @@
+.card-header h1 {
+    font-size: 2.5rem;
+  }
+  
+  .list-group-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .list-group-item input[type="checkbox"] {
+    margin-right: 1rem;
+  }
+  
+  .list-group-item .btn-danger:focus {
+    box-shadow: none;
+  }
+  
+  .list-group-item .btn-danger:hover {
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+  .list-group-item .btn-danger:focus:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+  }
+  
